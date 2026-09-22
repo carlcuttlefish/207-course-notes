@@ -7,7 +7,8 @@
  * Relevant reading: 1.8.3. while Loops (and 1.2. Variables and Types).
  */
 public class DigitSum {
-
+    // static means it's a class method (i.e. you don't need the actual object to use it
+    // main means it runs automatically when the class is called
     public static void main(String[] args) {
         // Should print 15 (1 + 2 + 3 + 4 + 5) once digitSum is implemented.
         System.out.println("digitSum(12345) = " + digitSum(12345));
@@ -22,6 +23,5 @@ public class DigitSum {
      */
     public static int digitSum(int n) {
         // TODO: complete
-        return 0;
     }
 }
