@@ -29,6 +29,7 @@ class BoxTest {
   @Test
   void boxWithAnItemIsNotEmpty() {
     Box<String> box = new Box<>();
+    assertTrue(box.isEmpty()) ;
     box.set("x");
     assertFalse(box.isEmpty());
   }
